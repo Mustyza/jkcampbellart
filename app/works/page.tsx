@@ -3,6 +3,7 @@ const works = [
   { title: "Heid", href: "/works/heid", img: "/heid.png" },
   { title: "Doors", href: "/works/doors", img: "/doors.png" },
   { title: "Babymaker", href: "/works/babymaker", img: "/babymaker.png" },
+  { title: "Fatneck", href: "/works/fatneck", img: "/fatneck.png" },
 ];
 
 export default function Works() {
