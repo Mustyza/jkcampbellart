@@ -1,42 +1,17 @@
 export default function Home() {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        backgroundColor: "#111111",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        padding: "2rem",
-        position: "relative",
-      }}
-    >
-      <a
-        href="mailto:contact@occoltic.com"
-        style={{
-          position: "absolute",
-          top: "2rem",
-          right: "2rem",
-          color: "#8f8572",
-          textDecoration: "none",
-          fontSize: "0.8rem",
-          letterSpacing: "0.12em",
-          fontFamily: "serif",
-        }}
-      >
-        CONTACT
-      </a>
+    <main style={{ minHeight: "100vh", background: "#111" }}>
+      <div style={{ position: "relative", width: "100%", maxWidth: "1600px", margin: "0 auto" }}>
+        <img src="/landing.png" alt="J. K. Campbell Sculpture" style={{ width: "100%", display: "block" }} />
 
-      <img
-        src="/landing.png"
-        alt="J. K. Campbell Sculpture"
-        style={{
-          width: "100%",
-          maxWidth: "1600px",
-          height: "auto",
-          boxShadow: "0 20px 60px rgba(0,0,0,0.6)",
-        }}
-      />
+        <a href="/works" aria-label="Works" style={{
+          position: "absolute", top: "4%", left: "6%", width: "10%", height: "5%", display: "block"
+        }} />
+
+        <a href="mailto:contact@occoltic.com" aria-label="Contact" style={{
+          position: "absolute", top: "4%", right: "6%", width: "12%", height: "5%", display: "block"
+        }} />
+      </div>
     </main>
   );
 }
