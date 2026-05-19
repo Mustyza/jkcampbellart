@@ -289,3 +289,132 @@ body {
     font-size: 0.75rem;
   }
 }
+.work-page {
+  min-height: 100vh;
+  background: #0d0d0c;
+  color: #c8b48a;
+  padding: 2rem;
+  font-family: serif;
+}
+
+.work-frame {
+  max-width: 1700px;
+  margin: 0 auto;
+  border: 1px solid rgba(170, 130, 70, 0.45);
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  min-height: 90vh;
+}
+
+.babymaker-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-right: 1px solid rgba(170, 130, 70, 0.45);
+}
+
+.babymaker-images img {
+  width: 100%;
+  max-height: 82vh;
+  object-fit: contain;
+  border: 1px solid rgba(170, 130, 70, 0.45);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.65);
+}
+
+.babymaker-images div,
+.babymaker-images img {
+  margin: auto;
+}
+
+.babymaker-images {
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.work-text {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work-text h1 {
+  font-size: 3rem;
+  letter-spacing: 0.22em;
+  font-weight: 400;
+  margin: 0 0 2rem;
+  color: #d4b16f;
+}
+
+.gold-line {
+  width: 180px;
+  height: 1px;
+  background: rgba(170, 130, 70, 0.65);
+  margin-bottom: 2rem;
+}
+
+.work-text p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #c9b88e;
+}
+
+.work-nav {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(170, 130, 70, 0.45);
+  display: flex;
+  gap: 2rem;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+}
+
+.work-nav a {
+  color: #b8965c;
+  text-decoration: none;
+}
+
+.final-nav {
+  justify-content: flex-start;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .work-page {
+    padding: 1rem;
+  }
+
+  .work-frame {
+    display: block;
+    min-height: auto;
+  }
+
+  .babymaker-images {
+    grid-template-columns: 1fr;
+    border-right: none;
+    border-bottom: 1px solid rgba(170, 130, 70, 0.45);
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .babymaker-images img {
+    max-height: none;
+  }
+
+  .work-text {
+    padding: 2rem 1.25rem;
+  }
+
+  .work-text h1 {
+    font-size: 2rem;
+    letter-spacing: 0.18em;
+  }
+
+  .work-text p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .work-nav {
+    justify-content: space-between;
+  }
+}
