@@ -1,3 +1,146 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.landing-page {
+  min-height: 100vh;
+  background: #111;
+}
+
+.landing-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.landing-img {
+  width: 100%;
+  display: block;
+}
+
+.landing-mobile {
+  display: none;
+}
+
+/* DESKTOP CLICK AREAS */
+.desktop-hit {
+  position: absolute;
+  top: 4%;
+  height: 5%;
+  display: block;
+  z-index: 20;
+}
+
+.desktop-works {
+  left: 6%;
+  width: 10%;
+}
+
+.desktop-contact {
+  right: 6%;
+  width: 12%;
+}
+
+/* MOBILE LANDING ONLY */
+.mobile-copyright {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .landing-page {
+    min-height: 100vh;
+    background: #050505;
+  }
+
+  .landing-wrap {
+    max-width: none;
+    min-height: 100vh;
+  }
+
+  .landing-desktop,
+  .desktop-hit {
+    display: none;
+  }
+
+  .landing-mobile {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: #050505;
+  }
+
+  .landing-mobile-img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mobile-copyright {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5.25%;
+    z-index: 15;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 7px;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.14em;
+    color: rgba(169, 143, 90, 0.58);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95);
+    pointer-events: none;
+  }
+
+  .mobile-hit {
+    position: absolute;
+    display: block;
+    z-index: 25;
+  }
+
+  .mobile-works {
+    left: 42%;
+    bottom: 1.8%;
+    width: 8%;
+    height: 5%;
+  }
+
+  .mobile-contact {
+    left: 53%;
+    bottom: 1.8%;
+    width: 8%;
+    height: 5%;
+  }
+}
+
 /* INDIVIDUAL WORK / SCULPTURE INFO PAGES */
 
 .work-page {
@@ -91,18 +234,24 @@
 /* MOBILE WORK PAGES */
 @media (max-width: 768px) {
   .work-page {
-    padding: 1rem;
+    padding: 0;
+    background: #0d0d0c;
+    width: 100%;
+    min-height: 100vh;
   }
 
   .work-shell {
     display: block;
+    width: 100%;
     min-height: auto;
+    border-left: none;
+    border-right: none;
   }
 
   .work-media {
     border-right: none;
     border-bottom: 1px solid rgba(170, 130, 70, 0.45);
-    padding: 1.25rem;
+    padding: 1rem;
     gap: 1rem;
   }
 
