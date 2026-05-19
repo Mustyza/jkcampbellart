@@ -1,68 +1,27 @@
 export default function CailleachPage() {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        background: "#0d0d0c",
-        color: "#c8b48a",
-        padding: "2rem",
-        fontFamily: "serif",
-      }}
-    >
-      <div
-        style={{
-          maxWidth: "1500px",
-          margin: "0 auto",
-          border: "1px solid rgba(170,130,70,0.45)",
-          display: "grid",
-          gridTemplateColumns: "3fr 2fr",
-          minHeight: "90vh",
-        }}
-      >
-        <section
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: "2rem",
-            padding: "5rem 4rem",
-            alignItems: "center",
-            borderRight: "1px solid rgba(170,130,70,0.45)",
-          }}
-        >
-          <img src="/cailleach-main.png" alt="Cailleach front view" style={imageStyle} />
-          <img src="/cailleach-side.png" alt="Cailleach side view" style={imageStyle} />
-        </section>
-
-        <section
-          style={{
-            padding: "5rem 4rem",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-          }}
-        >
-          <h1
-            style={{
-              fontSize: "3rem",
-              letterSpacing: "0.22em",
-              fontWeight: 400,
-              margin: "0 0 2rem",
-              color: "#d4b16f",
-            }}
-          >
-            CAILLEACH
-          </h1>
-
-          <div
-            style={{
-              width: "180px",
-              height: "1px",
-              background: "rgba(170,130,70,0.65)",
-              marginBottom: "2.5rem",
-            }}
+    <main className="work-page">
+      <div className="work-shell">
+        <section className="work-media work-media-two">
+          <img
+            src="/cailleach-main.png"
+            alt="Cailleach front view"
+            className="work-image"
           />
 
-          <div style={{ fontSize: "1rem", lineHeight: 1.75, color: "#c9b88e" }}>
+          <img
+            src="/cailleach-side.png"
+            alt="Cailleach side view"
+            className="work-image"
+          />
+        </section>
+
+        <section className="work-info">
+          <h1>CAILLEACH</h1>
+
+          <div className="work-rule" />
+
+          <div className="work-text">
             <p>
               The Cailleach is a figure from Scottish and Irish Gaelic folklore
               associated with winter, storms, wilderness, mountains, and the old
@@ -112,35 +71,12 @@ export default function CailleachPage() {
             </p>
           </div>
 
-          <nav
-            style={{
-              marginTop: "3rem",
-              paddingTop: "1.5rem",
-              borderTop: "1px solid rgba(170,130,70,0.45)",
-              display: "flex",
-              gap: "2rem",
-              letterSpacing: "0.18em",
-              fontSize: "0.85rem",
-            }}
-          >
-            <a href="/works" style={linkStyle}>WORKS</a>
-            <a href="/" style={linkStyle}>HOME</a>
+          <nav className="work-nav">
+            <a href="/works">WORKS</a>
+            <a href="/">HOME</a>
           </nav>
         </section>
       </div>
     </main>
   );
 }
-
-const imageStyle = {
-  width: "100%",
-  height: "auto",
-  display: "block",
-  border: "1px solid rgba(170,130,70,0.55)",
-  boxShadow: "0 25px 70px rgba(0,0,0,0.65)",
-};
-
-const linkStyle = {
-  color: "#b8965c",
-  textDecoration: "none",
-};

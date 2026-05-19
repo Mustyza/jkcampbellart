@@ -1,142 +1,142 @@
-@import "tailwindcss";
+/* INDIVIDUAL WORK / SCULPTURE INFO PAGES */
 
-:root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background: #111;
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.landing-page {
+.work-page {
   min-height: 100vh;
-  background: #111;
+  background: #0d0d0c;
+  color: #c8b48a;
+  padding: 2rem;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-.landing-wrap {
-  position: relative;
-  width: 100%;
-  max-width: 1600px;
+.work-shell {
+  max-width: 1500px;
+  min-height: 90vh;
   margin: 0 auto;
+  border: 1px solid rgba(170, 130, 70, 0.45);
+  display: grid;
+  grid-template-columns: 3fr 2fr;
 }
 
-.landing-img {
+.work-media {
+  padding: 5rem 4rem;
+  border-right: 1px solid rgba(170, 130, 70, 0.45);
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.work-media-two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-image {
   width: 100%;
+  height: auto;
   display: block;
+  border: 1px solid rgba(170, 130, 70, 0.55);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.65);
 }
 
-.landing-mobile {
-  display: none;
+.work-info {
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* DESKTOP CLICK AREAS */
-.desktop-hit {
-  position: absolute;
-  top: 4%;
-  height: 5%;
-  display: block;
-  z-index: 20;
+.work-info h1 {
+  margin: 0 0 2rem;
+  color: #d4b16f;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
 }
 
-.desktop-works {
-  left: 6%;
-  width: 10%;
+.work-rule {
+  width: 180px;
+  height: 1px;
+  background: rgba(170, 130, 70, 0.65);
+  margin-bottom: 2.5rem;
 }
 
-.desktop-contact {
-  right: 6%;
-  width: 12%;
+.work-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #c9b88e;
 }
 
-/* MOBILE ONLY */
-.mobile-copyright {
-  display: none;
+.work-text p {
+  margin: 0 0 1.35rem;
 }
 
+.work-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(170, 130, 70, 0.45);
+  display: flex;
+  gap: 2rem;
+  letter-spacing: 0.18em;
+  font-size: 0.85rem;
+}
+
+.work-nav a {
+  color: #b8965c;
+  text-decoration: none;
+}
+
+.work-nav a:hover {
+  color: #d4b16f;
+}
+
+/* MOBILE WORK PAGES */
 @media (max-width: 768px) {
-  .landing-page {
-    min-height: 100vh;
-    background: #050505;
+  .work-page {
+    padding: 1rem;
   }
 
-  .landing-wrap {
-    max-width: none;
-    min-height: 100vh;
-  }
-
-  .landing-desktop,
-  .desktop-hit {
-    display: none;
-  }
-
-  .landing-mobile {
-    position: relative;
+  .work-shell {
     display: block;
-    width: 100%;
-    min-height: 100vh;
-    background: #050505;
+    min-height: auto;
   }
 
-  .landing-mobile-img {
-    width: 100%;
-    min-height: 100vh;
-    object-fit: cover;
-    display: block;
+  .work-media {
+    border-right: none;
+    border-bottom: 1px solid rgba(170, 130, 70, 0.45);
+    padding: 1.25rem;
+    gap: 1rem;
   }
 
-  .mobile-copyright {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 5.25%;
-    z-index: 15;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 7px;
-    line-height: 1;
-    font-weight: 300;
-    letter-spacing: 0.14em;
-    color: rgba(169, 143, 90, 0.58);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95);
-    pointer-events: none;
+  .work-media-two {
+    grid-template-columns: 1fr;
   }
 
-  .mobile-hit {
-    position: absolute;
-    display: block;
-    z-index: 25;
+  .work-image {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.72);
   }
 
-  .mobile-works {
-    left: 42%;
-    bottom: 1.8%;
-    width: 8%;
-    height: 5%;
+  .work-info {
+    padding: 2rem 1.35rem 2.2rem;
   }
 
-  .mobile-contact {
-    left: 53%;
-    bottom: 1.8%;
-    width: 8%;
-    height: 5%;
+  .work-info h1 {
+    font-size: 2rem;
+    letter-spacing: 0.18em;
+    margin-bottom: 1.4rem;
+  }
+
+  .work-rule {
+    width: 120px;
+    margin-bottom: 1.8rem;
+  }
+
+  .work-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .work-nav {
+    margin-top: 2rem;
+    gap: 1.5rem;
+    font-size: 0.75rem;
   }
 }
