@@ -21,7 +21,22 @@ export default function CailleachPage() {
 
           <div className="work-rule" />
 
-          <div className="work-text">
+          <div className="work-details">
+            <p>
+              <span>Medium</span> Bronze
+            </p>
+            <p>
+              <span>Dimensions</span> H 4ft × W 2ft × D 3ft
+            </p>
+            <p>
+              <span>Date</span> 2024
+            </p>
+            <p>
+              <span>Edition</span> 1 of 3
+            </p>
+          </div>
+
+          <div className="work-copy">
             <p>
               The Cailleach is a figure from Scottish and Irish Gaelic folklore
               associated with winter, storms, wilderness, mountains, and the old

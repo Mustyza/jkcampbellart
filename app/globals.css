@@ -418,3 +418,77 @@ body {
     justify-content: space-between;
   }
 }
+/* CAILLEACH / STANDARD WORK PAGE CLEANUP */
+
+.work-copy {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #c9b88e;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.work-copy p {
+  margin: 0 0 1.35rem;
+}
+
+.work-details {
+  margin: 0 0 2.4rem;
+  padding: 1rem 0 1.1rem;
+  border-top: 1px solid rgba(170, 130, 70, 0.35);
+  border-bottom: 1px solid rgba(170, 130, 70, 0.35);
+  color: #bfa46f;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+}
+
+.work-details p {
+  margin: 0.25rem 0;
+}
+
+.work-details span {
+  display: inline-block;
+  min-width: 7rem;
+  color: #d4b16f;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+/* Desktop only: top-align artwork and text */
+@media (min-width: 769px) {
+  .work-shell {
+    align-items: start;
+    min-height: auto;
+  }
+
+  .work-media {
+    align-items: start;
+    align-content: start;
+    padding-top: 3.5rem;
+  }
+
+  .work-info {
+    justify-content: flex-start;
+    align-self: start;
+    padding-top: 3.5rem;
+  }
+}
+
+/* Mobile: keep current layout, just make details fit nicely */
+@media (max-width: 768px) {
+  .work-copy {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .work-details {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .work-details span {
+    min-width: 6.4rem;
+  }
+}
