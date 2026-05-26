@@ -3,19 +3,43 @@ export default function HeidPage() {
     <main className="work-page">
       <div className="work-shell">
         <section className="work-media">
-          <img
-            src="/heid-main.png"
-            alt="Heid sculpture"
-            className="work-image"
-          />
-        </section>
+  <img
+    src="/heid-main.png"
+    alt="Heid sculpture"
+    className="work-image"
+  />
+
+  <img
+    src="/heid-front.png"
+    alt="Heid front view"
+    className="work-image"
+  />
+</section>
 
         <section className="work-info">
           <h1>HEID</h1>
 
           <div className="work-rule" />
 
-          <div className="work-text">
+          <div className="work-details">
+            <p>
+              <span>Sculptor</span> J. K. Campbell
+            </p>
+            <p>
+              <span>Medium</span> Bronze
+            </p>
+            <p>
+              <span>Dimensions</span> Life-size
+            </p>
+            <p>
+              <span>Date</span> c.2002
+            </p>
+            <p>
+              <span>Edition</span> Edition of 9
+            </p>
+          </div>
+
+          <div className="work-copy">
             <p>
               Heid reflects on the relentless physical labour endured throughout
               human history, particularly during the industrial age, where entire
