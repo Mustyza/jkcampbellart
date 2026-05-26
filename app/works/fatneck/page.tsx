@@ -4,13 +4,13 @@ export default function FatneckPage() {
       <div className="work-shell">
         <section className="work-media">
           <img
-            src="/fatneck.png"
+            src="/fatneckW.png"
             alt="Fatneck side view"
             className="work-image"
           />
 
           <img
-            src="/fatneck-front.png"
+            src="/fatneck-frontW.png"
             alt="Fatneck front view"
             className="work-image"
           />

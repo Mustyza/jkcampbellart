@@ -4,7 +4,7 @@ export default function ShroudPage() {
       <div className="work-shell">
         <section className="work-media">
           <img
-            src="/shroud-main.jpg"
+            src="/shroud-mainW.jpg"
             alt="Shroud photographic study"
             className="work-image"
           />

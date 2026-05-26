@@ -9,7 +9,7 @@ export default function BabymakerPage() {
       >
         <section className="work-media work-media-two">
           <img
-            src="/babymaker-front.png"
+            src="/babymaker-frontW.png"
             alt="Babymaker front"
             className="work-image"
             style={{
@@ -19,7 +19,7 @@ export default function BabymakerPage() {
           />
 
           <img
-            src="/babymaker-side.png"
+            src="/babymaker-sideW.png"
             alt="Babymaker side"
             className="work-image"
             style={{

@@ -1,10 +1,10 @@
 const works = [
-  { title: "Cailleach", href: "/works/cailleach", img: "/cailleach.png" },
-  { title: "Heid", href: "/works/heid", img: "/heid.png" },
-  { title: "Doors", href: "/works/doors", img: "/doors.png" },
-  { title: "Babymaker", href: "/works/babymaker", img: "/babymaker.png" },
-  { title: "Fatneck", href: "/works/fatneck", img: "/fatneck.png" },
-  { title: "Shroud", href: "/works/shroud", img: "/shroud-main.jpg" },
+  { title: "Cailleach", href: "/works/cailleach", img: "/cailleachW.png" },
+  { title: "Heid", href: "/works/heid", img: "/heidW.png" },
+  { title: "Doors", href: "/works/doors", img: "/doorsW.png" },
+  { title: "Babymaker", href: "/works/babymaker", img: "/babymakerW.png" },
+  { title: "Fatneck", href: "/works/fatneck", img: "/fatneckW.png" },
+  { title: "Shroud", href: "/works/shroud", img: "/shroud-mainW.jpg" },
 ];
 
 export default function Works() {

@@ -4,13 +4,13 @@ export default function HeidPage() {
       <div className="work-shell">
         <section className="work-media">
   <img
-    src="/heid-main.png"
+    src="/heid-mainW.png"
     alt="Heid sculpture"
     className="work-image"
   />
 
   <img
-    src="/heid-front.png"
+    src="/heid-frontW.png"
     alt="Heid front view"
     className="work-image"
   />

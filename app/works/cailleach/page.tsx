@@ -4,13 +4,13 @@ export default function CailleachPage() {
       <div className="work-shell">
         <section className="work-media work-media-two">
           <img
-            src="/cailleach-main.png"
+            src="/cailleach-mainW.png"
             alt="Cailleach front view"
             className="work-image"
           />
 
           <img
-            src="/cailleach-side.png"
+            src="/cailleach-sideW.png"
             alt="Cailleach side view"
             className="work-image"
           />
