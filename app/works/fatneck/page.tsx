@@ -5,7 +5,13 @@ export default function FatneckPage() {
         <section className="work-media">
           <img
             src="/fatneck.png"
-            alt="Fatneck sculpture"
+            alt="Fatneck side view"
+            className="work-image"
+          />
+
+          <img
+            src="/fatneck-front.png"
+            alt="Fatneck front view"
             className="work-image"
           />
         </section>
@@ -15,7 +21,22 @@ export default function FatneckPage() {
 
           <div className="work-rule" />
 
-          <div className="work-text">
+          <div className="work-details">
+            <p>
+              <span>Medium</span> Concrete
+            </p>
+            <p>
+              <span>Dimensions</span> H 3ft × W 3ft × D 1.5ft
+            </p>
+            <p>
+              <span>Date</span> c. 2003
+            </p>
+            <p>
+              <span>Edition</span> Unique
+            </p>
+          </div>
+
+          <div className="work-copy">
             <p>
               Fatneck sits somewhere between caricature, monument, and mask. At
               first glance the piece appears almost humorous — the exaggerated
@@ -41,14 +62,14 @@ export default function FatneckPage() {
             </p>
 
             <p>
-              There is also a strange duality in the profile. The figure appears
-              stubborn, durable, and physically grounded, yet simultaneously
-              detached and introspective. The eye is reduced almost to a slit
-              beneath the brow ridge, producing a withdrawn internal quality
-              rather than outward expression. This restraint prevents the
-              sculpture from collapsing into parody. A lesser treatment of the
-              same exaggeration could easily have become cartoonish, but here
-              the massing and rhythm maintain seriousness.
+              There is also a strange duality in the head, especially in
+              profile. The figure appears stubborn, durable, and physically
+              grounded, yet simultaneously detached and introspective. The eye
+              is reduced almost to a slit beneath the brow ridge, producing a
+              withdrawn internal quality rather than outward expression. This
+              restraint prevents the sculpture from collapsing into parody. A
+              lesser treatment of the same exaggeration could easily have become
+              cartoonish, but here the massing and rhythm maintain seriousness.
             </p>
 
             <p>
