@@ -32,14 +32,29 @@ export default function BabymakerPage() {
         <section className="work-info">
           <h1>BABYMAKER</h1>
 
-          <div className="work-rule" />
+       <div className="work-rule" />
 
-          <div className="work-text">
-            <p>
-              <strong>J.K.Campbell c.2001</strong>
-              <br />
-              Bronze
-            </p>
+  <div className="work-details">
+    <p>
+      <span>Sculptor</span> J. K. Campbell
+    </p>
+    <p>
+      <span>Medium</span> Bronze
+    </p>
+    <p>
+      <span>Dimensions</span> H 4ft × W 2ft × D 2.5ft
+    </p>
+    <p>
+      <span>Date</span> c. 2003
+    </p>
+    <p>
+      <span>Edition</span> Edition of 3
+    </p>
+  </div>
+
+  <div className="work-copy">
+
+So the order should be:
 
             <p>
               Babymaker is a bronze sculpture concerned with creation,

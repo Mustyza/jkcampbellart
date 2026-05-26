@@ -23,6 +23,9 @@ export default function FatneckPage() {
 
           <div className="work-details">
             <p>
+              <span>Sculptor</span> J. K. Campbell
+            </p>
+            <p>
               <span>Medium</span> Concrete
             </p>
             <p>
