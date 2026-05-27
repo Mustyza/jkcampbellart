@@ -5,6 +5,7 @@ const works = [
   { title: "Babymaker", href: "/works/babymaker", img: "/babymakerW.png" },
   { title: "Fatneck", href: "/works/fatneck", img: "/fatneckW.png" },
   { title: "Shroud", href: "/works/shroud", img: "/shroud-mainW.jpg" },
+  { title: "Petrospheres", href: "/works/petrospheres", img: "/balls1W.png" },
 ];
 
 export default function Works() {
