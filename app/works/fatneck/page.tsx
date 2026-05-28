@@ -56,12 +56,11 @@ export default function FatneckPage() {
               forms are aggressively simplified, but not careless. Large
               uninterrupted surfaces collide with abrupt geometric cuts,
               producing a tension between softness and force. The exaggerated
-              neck and jaw structure create an unusual sense of load-bearing
-              weight, almost like a column supporting an overbuilt ideological
-              structure above it. In this respect the work quietly recalls
-              aspects of German Expressionist sculpture and early monumental
-              modernist design — where psychological presence mattered more than
-              anatomical fidelity.
+              neck and jaw create an unusual sense of load-bearing weight, as
+              though the figure has been shaped by pressure, repetition, and
+              endurance. In this respect, the work sits closer to monumental
+              expressionist portraiture and severe civic sculpture than to
+              conventional portraiture.
             </p>
 
             <p>
@@ -70,9 +69,7 @@ export default function FatneckPage() {
               grounded, yet simultaneously detached and introspective. The eye
               is reduced almost to a slit beneath the brow ridge, producing a
               withdrawn internal quality rather than outward expression. This
-              restraint prevents the sculpture from collapsing into parody. A
-              lesser treatment of the same exaggeration could easily have become
-              cartoonish, but here the massing and rhythm maintain seriousness.
+              restraint keeps the exaggeration serious rather than comic.
             </p>
 
             <p>
@@ -81,37 +78,31 @@ export default function FatneckPage() {
               allow the silhouette to dominate first before details slowly
               emerge. This gives the sculpture an almost archival or
               industrial-era photographic quality, particularly when treated in
-              monochrome or warm desaturated tones. The Bauhaus and
-              Expressionist associations emerge naturally from the structure
-              itself rather than from decorative styling applied afterwards.
+              monochrome or warm desaturated tones.
             </p>
 
             <p>
-              From a sculptural standpoint, the strongest aspect may be the
-              economy of information. The piece communicates identity and
-              psychological weight with remarkably little descriptive detail.
-              There is confidence in allowing mass, contour, and negative space
-              to carry the work rather than surface ornamentation. That
-              restraint is usually a sign that the maker understands form
-              structurally rather than illustratively.
+              The strongest aspect of the piece may be its restraint. Fatneck
+              communicates identity and psychological weight with little
+              descriptive detail. Mass, contour, and negative space carry the
+              work rather than surface ornamentation.
             </p>
 
-            <p>Conceptually, Fatneck can be read several ways:</p>
-
-            <ul>
-              <li>as a study of labour and endurance,</li>
-              <li>as a symbolic “working man” archetype,</li>
-              <li>as an industrial mask,</li>
-              <li>
-                or simply as an exploration of compressed human form under
-                pressure.
-              </li>
-            </ul>
+            <p>
+              For me, the piece also carries thoughts around labour and
+              endurance — the private battles of monotonous work, day after day,
+              often for poor reward. The monumentality is turned toward the
+              ordinary grafter rather than the general, the statesman, or the
+              heroic figure.
+            </p>
 
             <p>
-              Importantly, the sculpture does not over-explain itself. It leaves
-              enough ambiguity for projection, which is one reason it remains
-              memorable after viewing.
+              Conceptually, Fatneck can be read as a study of labour and
+              endurance, a symbolic working-man archetype, an industrial mask, or
+              simply as compressed human form under pressure. The sculpture does
+              not over-explain itself. It leaves enough ambiguity for projection,
+              and I hope that is part of what stays with the viewer after they
+              have seen it.
             </p>
           </div>
 
