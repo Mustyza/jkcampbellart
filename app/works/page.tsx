@@ -40,6 +40,17 @@ export default function Works() {
         WORKS
       </h1>
 
+      <section className="works-intro">
+        <p>
+          Many of the sculptures shown here were conceived with architectural space in mind —
+          public building foyers, corporate interiors, private spaces, and civic settings.
+          Some stand as finished works in their own right, while others may also be read as
+          maquettes for larger envisioned pieces.
+        </p>
+
+        <p className="works-signature">J. K. Campbell</p>
+      </section>
+
       <div
         style={{
           display: "grid",

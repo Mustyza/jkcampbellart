@@ -492,3 +492,27 @@ body {
     min-width: 6.4rem;
   }
 }
+.works-intro {
+  max-width: 520px;
+  margin: 1.25rem 0 3.5rem 0;
+  padding: 0 0 0 1rem;
+  border-left: 1px solid rgba(212, 177, 111, 0.55);
+  color: rgba(212, 177, 111, 0.72);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.works-intro p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.works-signature {
+  margin-top: 0.9rem !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.24em !important;
+  text-transform: uppercase;
+  color: rgba(212, 177, 111, 0.9);
+}
